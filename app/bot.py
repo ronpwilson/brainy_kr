@@ -266,14 +266,14 @@ def main():
 
     application.add_handler(CommandHandler("start", start))
     application.add_handler(CommandHandler("help", help_command))
-    application.add_handler(CommandHandler("ask", handle_ask))
+    application.add_handler(CommandHandler("ask", ask))
     application.add_handler(
         MessageHandler(filters.Document.ALL, handle_document)
     )
     application.add_handler(
         MessageHandler(
             filters.TEXT & ~filters.COMMAND,
-            ask,
+            handle_ask,
         )
     )
 
