@@ -1,0 +1,8 @@
+fastapi
+uvicorn[standard]
+python-telegram-bot
+groq
+python-dotenv
+pymupdf
+chromadb
+sentence-transformers
