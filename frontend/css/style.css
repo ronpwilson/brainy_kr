@@ -1,0 +1,33 @@
+body {
+    background-color: #f5f7fb;
+    color: #212529;
+}
+
+.navbar-brand {
+    white-space: normal;
+}
+
+.card {
+    border: 1px solid #e5e7eb;
+    border-radius: 10px;
+}
+
+.card-header {
+    background-color: #ffffff;
+}
+
+.table th {
+    white-space: nowrap;
+}
+
+.filename-cell {
+    min-width: 180px;
+    overflow-wrap: anywhere;
+}
+
+@media (max-width: 576px) {
+    main.container {
+        padding-left: 12px;
+        padding-right: 12px;
+    }
+}
